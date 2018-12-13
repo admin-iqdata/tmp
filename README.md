@@ -33,7 +33,7 @@ To install IQData SDK you will have to make some set up in the Gradle of your pr
 Open your root `build.gradle` file and add JitPack as a repository:
 
 ##### Groovy
-```groovy
+```diff
 allprojects {
     repositories {
         ...
@@ -42,7 +42,7 @@ allprojects {
 }
 ```
 ##### Kotlin script
-```kotlin
+```diff
 allprojects {
     repositories {
         ...
