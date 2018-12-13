@@ -53,6 +53,7 @@ allprojects {
 <table>
 <tr>
 <td>
+    
 ```groovy
 allprojects {
     repositories {
@@ -63,7 +64,8 @@ allprojects {
 ```
 </td>
 <td>
-    ```kotlin
+    
+```kotlin
 allprojects {
     repositories {
         ...
