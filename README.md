@@ -18,7 +18,7 @@ An Android SDK for iqdata. This library helps you send analytics/usage/whatever 
 |Gradle Android plugin|3.0 or higher|
 
 ### Permissions
-The IQData Android SDK uses following permissions: ACCESS_COARSE_LOCATION and ACCESS_FINE_LOCATION You should ask one of these permissions in your app.
+The IQData Android SDK uses following permissions: `ACCESS_COARSE_LOCATION` and `ACCESS_FINE_LOCATION`.
 The permission you choose determines the accuracy of the location returned by the API. You only need to request one of the Android location permissions, depending on the level of accuracy you need:
 
 `android.permission.ACCESS_COARSE_LOCATION` – Allows the API to use WiFi or mobile cell data (or both) to determine the device's location. The API returns the location with an accuracy approximately equivalent to a city block.
