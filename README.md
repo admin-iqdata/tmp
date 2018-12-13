@@ -50,15 +50,6 @@ allprojects {
 }
 ```
 
-| Groovy | Kotlin  |
-| ------ | ------- |
-| `allprojects {`                               | `allprojects {` |
-| `    repositories {`                          | `    repositories {` |
-| `        ...`                                 |         ...`` |
-| `        maven { url 'https://jitpack.io' }`  | `        maven("https://jitpack.io")` |
-| `    }`                                       | `    }` |
-| `}`                                           | `}` |
-
 #### Step 2. Add IQdata SDK
 
 In your module `build.gradle` (or `build.gradle.kts` if you are using Kotlin script) file enable Java 8 features support and add iqdata-android-sdk to your compile dependencies:
