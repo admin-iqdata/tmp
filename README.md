@@ -23,26 +23,26 @@ SDK uses `ACCESS_FINE_LOCATION` and `ACCESS_COARSE_LOCATION`. You should ask one
 Follow the steps below to add IQData SDK to your app.
 
 1. Add JitPack repository
-Open your root `build.gradle` file and add JitPack as a repository:
+    Open your root `build.gradle` file and add JitPack as a repository:
 
-Groovy
-```groovy
-allprojects {
-    repositories {
-        ...
-        maven { url 'https://jitpack.io' }
+    Groovy
+    ```groovy
+    allprojects {
+        repositories {
+            ...
+            maven { url 'https://jitpack.io' }
+        }
     }
-}
-```
-Kotlin script
-```kotlin
-allprojects {
-    repositories {
-        ...
-        maven("https://jitpack.io")
+    ```
+    Kotlin script
+    ```kotlin
+    allprojects {
+        repositories {
+            ...
+            maven("https://jitpack.io")
+        }
     }
-}
-```
+    ```
 2. Add IQdata SDK
 Add in app build.gradle:
 
