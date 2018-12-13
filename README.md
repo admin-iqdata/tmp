@@ -36,7 +36,7 @@ Open your root `build.gradle` (or `build.gradle.kts` if you are using Kotlin scr
 allprojects {
     repositories {
         ...
-+        maven { url 'https://jitpack.io' }
+        maven { url 'https://jitpack.io' }
     }
 }
 ```
@@ -64,7 +64,7 @@ android {
 }
 dependencies {
     ...
-+    implementation "com.iqdata:iqdata-android-sdk:VERSION"
+    implementation "com.iqdata:iqdata-android-sdk:VERSION"
 }
 ```
 ##### Kotlin script
