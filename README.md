@@ -23,6 +23,7 @@ SDK uses `ACCESS_FINE_LOCATION` and `ACCESS_COARSE_LOCATION`. You should ask one
 Follow the steps below to add IQData SDK to your app.
 
 1. Add JitPack repository
+
     Open your root `build.gradle` file and add JitPack as a repository:
 
     Groovy
@@ -44,35 +45,36 @@ Follow the steps below to add IQData SDK to your app.
     }
     ```
 2. Add IQdata SDK
-Add in app build.gradle:
 
-Groovy
-```groovy
-android {
-    ...
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+    Add in app build.gradle:
+
+    Groovy
+    ```groovy
+    android {
+        ...
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_8
+            targetCompatibility JavaVersion.VERSION_1_8
+        }
     }
-}
-dependencies {
-    ...
-    implementation "com.iqdata:iqdata-android-sdk:VERSION"
-}
-```
-Kotlin script
-```kotlin
-android {
-    ...
-    compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+    dependencies {
+        ...
+        implementation "com.iqdata:iqdata-android-sdk:VERSION"
     }
-}
-dependencies {
-    ...
-    implementation("com.iqdata:iqdata-android-sdk:VERSION")
-}
-```
+    ```
+    Kotlin script
+    ```kotlin
+    android {
+        ...
+        compileOptions {
+            sourceCompatibility = JavaVersion.VERSION_1_8
+            targetCompatibility = JavaVersion.VERSION_1_8
+        }
+    }
+    dependencies {
+        ...
+        implementation("com.iqdata:iqdata-android-sdk:VERSION")
+    }
+    ```
 
 You will be hinted for a project sync as you have updated the gradle files. The IQData SDK will have been installed once the sync is completed.
