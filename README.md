@@ -80,5 +80,6 @@ dependencies {
     implementation("com.iqdata:iqdata-android-sdk:VERSION")
 }
 ```
+Don't forget to change the line below with the latest version of IQDara SDK for Android!
 
 You will be hinted for a project sync as you have updated the gradle files. The IQData SDK will have been installed once the sync is completed.
