@@ -16,7 +16,7 @@ An Android SDK for IQData. This library helps you send analytics/usage/whatever 
 
 ### Permissions
 The IQData SDK uses following permissions: `ACCESS_COARSE_LOCATION` and `ACCESS_FINE_LOCATION`.
-The permission you choose determines the accuracy of the location returned by the API. You only need to request one of the Android location permissions, depending on the level of accuracy you need:
+The permission you choose determines the accuracy of the location returned by the API. You only need to request one of the Android location permissions:
 
 `android.permission.ACCESS_COARSE_LOCATION` – Allows to use WiFi or mobile cell data (or both) to determine the device's location. The API returns the location with an accuracy approximately equivalent to a city block.
 `android.permission.ACCESS_FINE_LOCATION` – Allows to determine as precise location as possible from the available location providers, including the Global Positioning System (GPS) as well as WiFi and mobile cell data.
