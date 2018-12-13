@@ -24,9 +24,9 @@ The permission you choose determines the accuracy of the location returned by th
 
 ### Installation
 
-Follow the steps below to add IQData SDK to your app.
+To install IQData SDK you will have to make some set up in the Gradle of your project. To do so, follow the steps described below:
 
-1. Add JitPack repository
+#Step 1: Add JitPack repository
 
 Open your root `build.gradle` file and add JitPack as a repository:
 
@@ -51,6 +51,7 @@ allprojects {
 2. Add IQdata SDK
 
 Add in app build.gradle:
+Be careful, there are two files named build.gradle. In this step you want to modify the (Module:app) one.
 
 Groovy
 ```groovy
