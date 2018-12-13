@@ -81,4 +81,5 @@ dependencies {
 ```
 > :warning: Don't forget to change the last line with the latest version of IQdata SDK for Android.
 
-You will be hinted for a project sync as you have updated the gradle files. That's it, the IQData SDK will have been installed once the sync is completed.
+You will be hinted for a project sync as you have updated the gradle files.
+:heavy_check_mark: That's it, the IQData SDK will have been installed once the sync is completed.
