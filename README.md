@@ -28,7 +28,7 @@ The permission you choose determines the accuracy of the location returned by th
 
 To install IQData SDK you will have to make some set up in the Gradle of your project. To do so, follow the steps described below:
 
-# Step 1: Add JitPack repository
+#### Step 1: Add JitPack repository
 
 Open your root `build.gradle` file and add JitPack as a repository:
 
@@ -50,7 +50,7 @@ allprojects {
     }
 }
 ```
-# Step 2. Add IQdata SDK
+#### Step 2. Add IQdata SDK
 
 In your module build.gradle file add iqdata-android-sdk to your compile dependencies:
 
