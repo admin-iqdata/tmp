@@ -1,5 +1,5 @@
-[![Release](https://jitpack.io/v/User/Repo.svg?style=flat-square)]
-(https://jitpack.io/#com.example/Repo)
+[![Release](https://jitpack.io/v/User/Repo.svg)]
+(https://jitpack.io/#User/Repo)
 
 ## iqdata-android-sdk
 
