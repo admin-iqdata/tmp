@@ -52,6 +52,10 @@ allprojects {
 
 <table>
 <tr>
+<th>Groovy</th>
+<th>Kotlin script</th>
+</tr>
+<tr>
 <td>
     
 ```groovy
