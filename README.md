@@ -52,34 +52,34 @@ allprojects {
 ```
 #### Step 2. Add IQdata SDK
 
-In your module build.gradle file add iqdata-android-sdk to your compile dependencies:
+In your module build.gradle file enable Java 8 features support and add iqdata-android-sdk to your compile dependencies:
 
 ##### Groovy
-```groovy
+```diff
 android {
     ...
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
-    }
++    compileOptions {
++        sourceCompatibility JavaVersion.VERSION_1_8
++        targetCompatibility JavaVersion.VERSION_1_8
++    }
 }
 dependencies {
     ...
-    implementation "com.iqdata:iqdata-android-sdk:VERSION"
++    implementation "com.iqdata:iqdata-android-sdk:VERSION"
 }
 ```
 ##### Kotlin script
-```kotlin
+```diff
 android {
     ...
-    compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
-    }
++    compileOptions {
++        sourceCompatibility = JavaVersion.VERSION_1_8
++        targetCompatibility = JavaVersion.VERSION_1_8
++    }
 }
 dependencies {
     ...
-    implementation("com.iqdata:iqdata-android-sdk:VERSION")
++    implementation("com.iqdata:iqdata-android-sdk:VERSION")
 }
 ```
 Don't forget to change the last line with the latest version of IQdata SDK for Android.
