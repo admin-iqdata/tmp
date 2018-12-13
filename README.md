@@ -27,7 +27,7 @@ To install IQData SDK you will have to make some set up in the gradle file of yo
 
 #### Step 2: Add JitPack repository
 
-Open your root `build.gradle` file and add JitPack as a repository:
+Open your root `build.gradle` (or `build.gradle.kts` if you are using Kotlin script) file and add JitPack as a repository:
 
 ##### Groovy
 ```diff
@@ -49,7 +49,7 @@ allprojects {
 ```
 #### Step 2. Add IQdata SDK
 
-In your module `build.gradle` file enable Java 8 features support and add iqdata-android-sdk to your compile dependencies:
+In your module `build.gradle` (or `build.gradle.kts` if you are using Kotlin script) file enable Java 8 features support and add iqdata-android-sdk to your compile dependencies:
 
 ##### Groovy
 ```diff
