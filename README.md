@@ -2,6 +2,23 @@
 
 An Android SDK for [enter purposes here]
 
+### Table of Contents
+- [Installation](#installation)
+  - [Manual Linking](#manual-linking)
+- [Usage](#usage)
+- [API](#api)
+  - [Properties](#properties)
+    - [`defaults`](#defaults)
+  - [Methods](#methods)
+    - [`alert`](#alert)
+- [Types](#types)
+  - [Internal Types](#internal-types)
+    - [`type ActionType`](#type-actiontype)
+- [Examples](#examples)
+  - [Progress Dialog](#progress-dialog)
+  - [Basic List](#basic-list)
+- [Contributors](#contributors)
+
 ### Requirements
 |Product|Version|
 |---|---|
