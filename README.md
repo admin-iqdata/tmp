@@ -52,7 +52,7 @@ allprojects {
 ```
 #### Step 2. Add IQdata SDK
 
-In your module build.gradle file enable Java 8 features support and add iqdata-android-sdk to your compile dependencies:
+In your module `build.gradle` file enable Java 8 features support and add iqdata-android-sdk to your compile dependencies:
 
 ##### Groovy
 ```diff
