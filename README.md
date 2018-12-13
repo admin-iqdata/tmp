@@ -1,6 +1,6 @@
 ## iqdata-android-sdk
 
-An Android SDK for iqdata. This library helps you send analytics/usage/whatever data from your Android app to [insert what the app do].
+An Android SDK for iqdata. This library helps you send analytics/usage/whatever data from your Android app to [insert what the app do]. This guide explains how to integrate it to your application.
 
 ### Table of Contents
 - [Requirements](#requirements)
