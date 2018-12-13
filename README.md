@@ -1,7 +1,7 @@
+## iqdata-android-sdk
+
 [![Release](https://jitpack.io/v/User/Repo.svg)]
 (https://jitpack.io/#User/Repo)
-
-## iqdata-android-sdk
 
 An Android SDK for iqdata. This library helps you send analytics/usage/whatever data from your Android app to [insert where].
 
