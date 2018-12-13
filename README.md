@@ -50,15 +50,14 @@ allprojects {
 }
 ```
 
-| Status | Response  |
-| ------ | --------- |
-| 200    | `json`                          |
-|        | `   {`                          |
-|        | ` "id": 10,`                    |
-|        | ` "username": "alanpartridge",` |
-|        | ` more code...`                 |
-|        | `}`                             |
-| 400    |                                 |
+| Groovy | Kotlin  |
+| ------ | ------- |
+| `allprojects {`                               | `allprojects {` |
+| `    repositories {`                          | `    repositories {` |
+| `        ...`                                 |         ...`` |
+| `        maven { url 'https://jitpack.io' }`  | `        maven("https://jitpack.io")` |
+| `    }`                                       | `    }` |
+| `}`                                           | `}` |
 
 #### Step 2. Add IQdata SDK
 
