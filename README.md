@@ -49,7 +49,7 @@ allprojects {
     }
 }
 ```
-
+Note: we also can display the snippets like this:
 <table>
 <tr>
 <th>Groovy</th>
