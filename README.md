@@ -6,7 +6,7 @@ An Android SDK for iqdata. This library helps you send analytics/usage/whatever 
 - [Requirements](#requirements)
 - [Permissions](#permissions)
 - [Installation](#installation)
-    - [Step 1](#permissions)
+    - [Step 1](#step-1-add-jitpack-repository)
     - [Step 2](#permissions)
 
 ### Requirements
