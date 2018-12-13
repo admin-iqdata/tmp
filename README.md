@@ -37,7 +37,7 @@ Open your root `build.gradle` file and add JitPack as a repository:
 allprojects {
     repositories {
         ...
-        maven { url 'https://jitpack.io' }
++        maven { url 'https://jitpack.io' }
     }
 }
 ```
@@ -46,7 +46,7 @@ allprojects {
 allprojects {
     repositories {
         ...
-        maven("https://jitpack.io")
++        maven("https://jitpack.io")
     }
 }
 ```
@@ -82,6 +82,6 @@ dependencies {
     implementation("com.iqdata:iqdata-android-sdk:VERSION")
 }
 ```
-Don't forget to change the last line with the latest version of IQDara SDK for Android.
+Don't forget to change the last line with the latest version of IQdata SDK for Android.
 
 You will be hinted for a project sync as you have updated the gradle files. That's it, the IQData SDK will have been installed once the sync is completed.
