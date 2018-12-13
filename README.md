@@ -5,6 +5,8 @@ An Android SDK for iqdata. This library helps you send analytics/usage/whatever 
 ### Table of Contents
 - [Requirements](#requirements)
 - [Permissions](#permissions)
+    - [Step 1](#permissions)
+    - [Step 2](#permissions)
 - [Installation](#installation)
 
 ### Requirements
@@ -26,7 +28,7 @@ The permission you choose determines the accuracy of the location returned by th
 
 To install IQData SDK you will have to make some set up in the Gradle of your project. To do so, follow the steps described below:
 
-#Step 1: Add JitPack repository
+##Step 1: Add JitPack repository
 
 Open your root `build.gradle` file and add JitPack as a repository:
 
@@ -48,10 +50,9 @@ allprojects {
     }
 }
 ```
-2. Add IQdata SDK
+##Step 2. Add IQdata SDK
 
-Add in app build.gradle:
-Be careful, there are two files named build.gradle. In this step you want to modify the (Module:app) one.
+In your module build.gradle file add iqdata-android-sdk to your compile dependencies:
 
 Groovy
 ```groovy
