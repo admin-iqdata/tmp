@@ -32,7 +32,7 @@ To install IQData SDK you will have to make some set up in the Gradle of your pr
 
 Open your root `build.gradle` file and add JitPack as a repository:
 
-Groovy
+##### Groovy
 ```groovy
 allprojects {
     repositories {
@@ -41,7 +41,7 @@ allprojects {
     }
 }
 ```
-Kotlin script
+##### Kotlin script
 ```kotlin
 allprojects {
     repositories {
@@ -54,7 +54,7 @@ allprojects {
 
 In your module build.gradle file add iqdata-android-sdk to your compile dependencies:
 
-Groovy
+##### Groovy
 ```groovy
 android {
     ...
@@ -68,7 +68,7 @@ dependencies {
     implementation "com.iqdata:iqdata-android-sdk:VERSION"
 }
 ```
-Kotlin script
+##### Kotlin script
 ```kotlin
 android {
     ...
