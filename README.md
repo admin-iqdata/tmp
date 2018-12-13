@@ -20,7 +20,7 @@ SDK uses `ACCESS_FINE_LOCATION` and `ACCESS_COARSE_LOCATION`. You should ask one
 
 ### Installation
 1. Add JitPack repository
-Add in your root `build.gradle` at the end of repositories:
+Open your root `build.gradle` file and add JitPack as a repository:
 
 Groovy
 ```groovy
