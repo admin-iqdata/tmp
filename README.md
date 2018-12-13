@@ -40,7 +40,7 @@ allprojects {
     }
 }
 ```
-1. Add IQdata SDK
+2. Add IQdata SDK
 Add in app build.gradle:
 
 Groovy
