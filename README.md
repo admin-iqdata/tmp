@@ -17,7 +17,10 @@ An Android SDK for IQData. This library helps you send analytics/usage/whatever 
 |Gradle|Use latest version|
 |Gradle Android plugin|3.0 or higher|
 
+
+
 |Java|Android|Gradle|Gradle Android plugin|
+|---|---|---|---|
 |8 or higher|4.0.3 (API Level 15) or higher|Use latest version|3.0 or higher|
 
 ### Permissions
