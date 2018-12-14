@@ -2,7 +2,7 @@
 
 [![Release](https://jitpack.io/v/jitpack/android-example.svg)](https://jitpack.io/#jitpack/android-example)
 
-An Android SDK for IQData. This library helps you send analytics/usage/whatever data from your Android app to [insert what the app do]. This guide explains how to integrate it to your application.
+This is Android SDK for IQdata. This library allows you to send user data (location, Wi-Fi networks, device info) from your Android app to IQdata. This guide explains how to integrate it to your application.
 
 ### Table of Contents
 - [Requirements](#requirements)
