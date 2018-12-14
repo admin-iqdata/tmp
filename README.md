@@ -35,7 +35,7 @@ Open your root `build.gradle` (or `build.gradle.kts` if you are using Kotlin scr
 ```groovy
 allprojects {
     repositories {
-        ...
+        …
         maven { url 'https://jitpack.io' }
     }
 }
@@ -44,7 +44,7 @@ allprojects {
 ```kotlin
 allprojects {
     repositories {
-        ...
+        …
         maven("https://jitpack.io")
     }
 }
@@ -61,7 +61,7 @@ Note: we also can display the snippets like this:
 ```groovy
 allprojects {
     repositories {
-        ...
+        …
         maven { url 'https://jitpack.io' }
     }
 }
@@ -72,7 +72,7 @@ allprojects {
 ```kotlin
 allprojects {
     repositories {
-        ...
+        …
         maven("https://jitpack.io")
     }
 }
@@ -88,28 +88,28 @@ In your module `build.gradle` (or `build.gradle.kts` if you are using Kotlin scr
 ##### Groovy
 ```groovy
 android {
-    ...
+    …
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
 }
 dependencies {
-    ...
+    …
     implementation "com.iqdata:iqdata-android-sdk:VERSION"
 }
 ```
 ##### Kotlin script
 ```kotlin
 android {
-    ...
+    …
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
 }
 dependencies {
-    ...
+    …
     implementation("com.iqdata:iqdata-android-sdk:VERSION")
 }
 ```
